@@ -4,7 +4,7 @@ output = "/home/berat/Desktop/Development/python-scripts/sourceCodeScanner/outpu
 codeExecution = ["exec", "eval", "passthru", "system", "shel_exec", '`', "popen", "proc_open", "pcntl_exec"]
 userInput = ["$_GET", "$_POST", "$_REQUEST"]
 fileSystem = ["fopen", "tmpfile", "bzopen", "gzopen", "chgrp", "chmod", "chown", "copy", "file_put_contents", "mkdir", "move_uploaded_file", "touch", "readfile", "is_uploaded_file"]
-## Burası Biraz çorba oldu 🙂 özetle dosyayı okuyup yazıyor.
+## Verilen klasörü okuyor istenilen klasöre yazıyor ## 🙂
 def searchFile(directory, words, output="/home/berat/Desktop/out.txt"):
     p = Path(directory)
     with open(output, "a+", encoding='utf-8') as result_file:
