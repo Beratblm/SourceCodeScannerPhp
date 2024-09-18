@@ -1,2 +1,2 @@
 # SourceCodeScannerPhp
-php kaynak kod taraması yapan basit python scripti.
+php kaynak kod taraması yapan basit bash scripti.
